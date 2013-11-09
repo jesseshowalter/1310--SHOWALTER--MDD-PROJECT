@@ -13,7 +13,7 @@ Log Book
 
 [1.2] Initialization
 
-Anticipated using twitter bootstrap
-Intalled bootstrap and angular.js
-created style tiles to define look and feel of the app
+Anticipated using twitter bootstrap</br>
+Intalled bootstrap and angular.js</br>
+created style tiles to define look and feel of the app</br>
 going through and inplementing styles to be consitent with previous design work(style tiles)
