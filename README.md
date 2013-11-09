@@ -17,3 +17,7 @@ Log Book
 - Intalled bootstrap and angular.js
 - created style tiles to define look and feel of the app
 - going through and inplementing styles to be consitent with previous design work(style tiles)
+
+
+
+SQL Dumps can be found in assets/sql
