@@ -1,4 +1,4 @@
-1310--SHOWALTER--MDD-PROJECT
+1310 -- SHOWALTER -- MDD-PROJECT
 ============================
 
 Showti.me
