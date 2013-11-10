@@ -1,106 +1,119 @@
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+/* Colors 
+#F77E34 - Orange
+#00B7B3 - Turquise
+#F0F0F0 - Grey
+#3E4650 - Dark Blue Grey
+#5C6D7C - Light Blue Grey
+
+*/
 
 body {
-   background-color: #5dace9;
+   background-color: #FFF;
+   font-family: 'Lato', sans-serif !important;
 }
+
 h1, h2, h3 {
-    font-family: 'Archivo Narrow', sans-serif;
-}
-.banner {
-    background-color: #0074cd;
-    color: #FFF;
-    height: 100px;
-}
-.banner h1 {
-    font-size: 50px;
-    line-height: 50px;
-}
-.main-frame {
-    background-color: #FFF;
-    padding: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-    margin-top: -30px;
-}
-.search-box {
-    line-height: 50px;
-    background-color: #333;
-    color: #FFF;
-    margin-bottom: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-}
-.search-box label {
-    font-weight: bold;
-    margin-left: 10px;
+    font-family: 'Lato', sans-serif !important;
 }
 
-.episode-list {
-    list-style: none;
-    margin: 0px;
-}
-
-.episode-list h3 {
-    margin-top: 0px;
-}
-
-.episode-list .ratings {
-    line-height: 30px;
-    text-align: center;
-    background-color: #333;
-    color: #FFF;
-    margin-top: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.episode-list .fulldate {
-    margin: 5px;
-}
-
-.episode-list li {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: dotted 1px #5dace9;
-}
-
-.episode-list li:last-child {
-    border-bottom: none;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-.show-info {
-    list-style: none;
-    margin: 0px;
-    padding: 10px;
-    background-color: #e1e1e1;
-    color: #333;
-    font-size: 16px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.show-info li {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    border-bottom: solid 1px #CCC;
-    line-height: 40px;
-}
-
-.show-info li:last-child {
-    border-bottom: none;
-}
-
-.show-info .genre {
-    margin-right: 5px;
+/* General button style (reset) */
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
     cursor: pointer;
+    display: inline-block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button Primary */
+.btn-primary {
+    background: #F77E34;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 60px;
+    box-shadow: 0 6px #CF6121;
+    -webkit-transition: all 0.05s;
+    -moz-transition: all 0.05s;
+    transition: all 0.05s;
+}
+
+.btn-primary:hover {
+    background:#F77E34;
+    box-shadow: 0 4px #CF6121;
+    top: 2px;
+}
+
+.btn-primary:active {
+    background:#CF6121;
+    box-shadow: 0 0 #E76C25;
+    top: 6px;
+}
+
+
+/* Button Secondary */
+.btn-secondary {
+    background: #00B7B3;
+    border-radius: 3px;
+    color: #FFF;
+    padding: 7px 30px;
+    
+    -webkit-transition: all 0.05s;
+    -moz-transition: all 0.05s;
+    transition: all 0.05s;
+}
+
+.btn-secondary:hover {
+    background:#00B7B3;
+    color:white;
+}
+
+.btn-secondary:active {
+    background:#CF6121;
+}
+
+/*------------------------------------------------------*/
+
+.navbar-inverse{
+    background:#FFF;
+}
+
+.jumbotron {
+    /*background:url("../img/banner.jpg") no-repeat center center;*/
+    background:#00B7B3;
+    color:#FFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

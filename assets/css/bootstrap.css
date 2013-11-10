@@ -41,12 +41,15 @@ template {
 
 html {
   font-family: sans-serif;
+  font-family: 'Lato', sans-serif !important;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 a {
@@ -4796,8 +4799,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: #5C6D7C;
+  color:#FFF !important;
 }
 
 .navbar-inverse .navbar-brand {
